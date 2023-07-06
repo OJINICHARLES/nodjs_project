@@ -2,9 +2,6 @@ name: shell commands
 
 on:
    - push
-   - pr
-
-
 jobs:
   run-shell-commands:
     runs-on: ubuntu-latest
